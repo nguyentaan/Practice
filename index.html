@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>STT</th>
+            <th>Họ Tên</th>
+            <th>Lớp</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nguyễn Văn Tân</td>
+            <td>PMCL</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Nguyễn Văn B</td>
+            <td>KTPM</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan="2">None</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <th>STT</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <th>Họ Tên</th>
+            <td>Nguyễn Văn Tân</td>
+            <td>Nguyễn Văn B</td>
+            <td rowspan="2">None</td>
+        </tr>
+        <tr>
+            <th>Lớp</th>
+            <td>PMCL</td>
+            <td>KTPM</td>
+        </tr>
+    </table>
+    <form action="" method="GET" accept-charset="UTF-8">
+        <label for="full-name">Họ và tên:</label>
+        <input type="text" name="full-name" value="" placeholder="Họ và Tên">
+        <label for="about-your-self">Mô tả về bạn:</label>
+        <textarea name="about-your-self" id="" cols="30" rows="10"></textarea>
+        <button>Xóa dữ liệu</button>
+        <input type="submit" value="Gui du lieu">
+        <select name="" id="">
+            <optgroup label="UIT">
+                <option value="">DAA</option>
+                <option value="">Website môn học</option>
+            </optgroup>
+            <optgroup label="Mạng xã hội">
+                <option value="">FB</option>
+                <option value="">Zalo</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>
